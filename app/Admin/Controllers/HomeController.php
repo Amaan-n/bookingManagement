@@ -20,7 +20,7 @@ class HomeController extends Controller
         $worker = Worker::all();
         $Booking = Bookings::all(); 
         $content->header('View...');        
-        return $content->view('calendar2',[
+        return $content->view('view',[
             'worker' => $worker ,
             'Booking' => $Booking ,
         ]);
