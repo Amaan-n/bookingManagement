@@ -18,11 +18,12 @@ class HomeController extends Controller
     public function index(Content $content)
     {
         $worker = Worker::all();
-        $Booking = Bookings::all()->first(); 
+        $Booking = Bookings::all(); 
         $content->header('View...');        
         return $content->view('view',[
             'worker' => $worker ,
             'Booking' => $Booking ,
         ]);
+        
     }
 }

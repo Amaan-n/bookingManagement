@@ -29,10 +29,10 @@
             </td>
             <td class="details-slot">   
                <div class="user-details draggable-details">  
-                  <h3 class="details-task" style=" background: #5f8b4a; color: #000000">{{$Booking->customers}}</h3>
+                  <h3 class="details-task" style=" background: #5f8b4a; color: #000000">Amaan</h3>
                   <div class="details-uren">
                     <ul>
-                        <li>{{$Booking->services}}</li>
+                        <li>Shaving</li>
                     </ul>    
                         <a  class="btn btn-primary btn-sm custom-btn-css" href="#">Edit</a> <a  class="btn btn-danger btn-sm custom-btn-css" href="#">Delete</a>
                   </div> 
